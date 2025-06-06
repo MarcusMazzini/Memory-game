@@ -22,3 +22,10 @@ body {
   );
   padding: 40px 60px;
 }
+
+h2 {
+  font-size: 3em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
