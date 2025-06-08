@@ -23,7 +23,7 @@ Este é um **clássico e divertido Jogo da Memória**, desenvolvido com **HTML, 
 * **CSS3**: Estilização completa do layout e das cartas, incluindo as animações de virada.
 * **JavaScript (ES6+)**: Implementação da lógica do jogo, manipulação do DOM e gerenciamento dos eventos de clique.
 
-### 🛠️ Instalação (para desenvolvedores)
+### 🛠️ Instalação 
 
 Para rodar este projeto localmente, siga os passos abaixo:
 
