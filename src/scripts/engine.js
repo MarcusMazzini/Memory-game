@@ -41,6 +41,17 @@ function handleClick() {
 }
 
 function checkMatch() {
-  // Esta função foi deixada vazia no seu código original,
-  // então não há erros para corrigir aqui, apenas a ausência de lógica.
+  if (openCards[0].innerHTML === openCards[1].innerHTML) {
+    openCards[0].classList.add("boxMatch");
+    openCards[1].classList.add("boxMatch");
+  } else {
+    openCards[0].classList.remove("boxOpen");
+    openCards[1].classList.remove("boxOpen");
+  }
+
+  openCards = [];
+
+  if (document.querySelectorAll(".boxMatch").length === emojis.length) {
+    alert("Você venceu!");
+  }
 }
